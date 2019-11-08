@@ -7,6 +7,10 @@ include config.mk
 SRC = st.c x.c boxdraw.c
 OBJ = $(SRC:.c=.o)
 
+# paths
+PREFIX = /usr
+MANPREFIX = ${PREFIX}/share/man
+
 all: xst
 
 config.h:
