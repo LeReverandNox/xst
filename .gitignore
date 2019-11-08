@@ -1,4 +1,5 @@
 *.o
+st
 xst
 config.h
 .direnv
