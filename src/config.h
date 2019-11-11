@@ -23,7 +23,7 @@ static float cwscale = 1.0;
 static float chscale = 1.0;
 
 /* work delimter strings. more advanced example : " `'\"()[]{}" */
-static char worddelimiters[] = " ";
+static char worddelimiters[] = " :_";
 
 /* alt screens */
 static int allowaltscreen = 1;
