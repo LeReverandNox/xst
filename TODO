@@ -1,21 +1,15 @@
-xst
----
-
-* expose the ability to set keybinds via Xresources.
-* Implement a daemon client mode like urxvt.
-* make a keybind table of existing binds?
-	* take a closer look at keybinding possiblities.
-* consider the scrollback patch.
-* consider line spacing options.
-
 vt emulation
 ------------
 
 * double-height support
 
+code & interface
+----------------
+
+* add a simple way to do multiplexing
+
 drawing
 -------
-
 * add diacritics support to xdraws()
 	* switch to a suckless font drawing library
 * make the font cache simpler
@@ -30,5 +24,5 @@ bugs
 misc
 ----
 
-`$ grep -nE 'XXX|TODO' st.c`
+    $ grep -nE 'XXX|TODO' st.c
 
